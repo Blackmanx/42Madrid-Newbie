@@ -33,8 +33,10 @@ Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes
 Congratulations, ya tienes la terminal relativamente bonita!
 ## Workflow
 Para trabajar en 42 supongo que ya tienes preparado el Slack, pero si no te recomiendo que lo pongas tanto en el mac como en tus dispositivos móviles y te conectes al espacio de trabajo de 42born2code(.slack.com).
-Ahí se anuncian todas las noticias de 42, además de que es el sitio donde preferiblemente debes reportar problemas o dar tus aportaciones.
-Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos psicópatas que gustan de VIM). Con VSCode
+Ahí se anuncian todos los comunicados de 42, además de que es el sitio donde preferiblemente debes reportar problemas o dar tus aportaciones. Tendrás que cumplir varias normas en Slack que tocaremos más adelante en la guía **(NO las ignores)**.
+Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos psicópatas que gustan de VIM). 
+
+Con VSCode
 ```
 {
     "Comentario": {
