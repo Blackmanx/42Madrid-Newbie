@@ -35,21 +35,22 @@ Congratulations, ya tienes la terminal relativamente bonita!
 Para trabajar en 42 supongo que ya tienes preparado el Slack, pero si no te recomiendo que lo pongas tanto en el mac como en tus dispositivos móviles y te conectes al espacio de trabajo de 42born2code(.slack.com).
 Ahí se anuncian todas las noticias de 42, además de que es el sitio donde preferiblemente debes reportar problemas o dar tus aportaciones.
 Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos psicópatas que gustan de VIM). Con VSCode
-> `{`
-> "Comentario": {
-> "prefix": `**"**``comment42``**"**``,`
-> "body": [
-> `**"**``/*``**"**``,`
-> `**"**``** * DESCRIPTION``**"**``,`
-> `**"**``** Description of function``**"**``,`
-> `**"**``** * @param myParam``**"**``,`
-> `**"**``** Description of params``**"**``,`
-> `**"**``** * RETURN VALUE``**"**``,`
-> `**"**``** Explain what do you return``**"**``,`
-> `**"**``*/``**"**`
-> `],`
-> `"description":` `**"**``Comentario``**"**`
-> `}`
-> `}`
-
+```
+`{`
+"Comentario": {
+"prefix": `**"**``comment42``**"**``,`
+"body": [
+`**"**``/*``**"**``,`
+`**"**``** * DESCRIPTION``**"**``,`
+`**"**``** Description of function``**"**``,`
+`**"**``** * @param myParam``**"**``,`
+`**"**``** Description of params``**"**``,`
+`**"**``** * RETURN VALUE``**"**``,`
+`**"**``** Explain what do you return``**"**``,`
+`**"**``*/``**"**`
+`],`
+`"description":` `**"**``Comentario``**"**`
+`}`
+`}`
+```
 
