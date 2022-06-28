@@ -14,13 +14,21 @@ Profiles > Open Profiles > Edit Profiles > Window > Window Columns and Rows
 Yo recomiendo personalmente 150C 40R, porque las ventanas por defecto son demasiado [[ pequeñas ]].
 Quizá prefieras también instalar Oh my Zsh
 > sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)”
+
 Y, si lo has hecho, instalar el popular tema powerlevel10k.
+
 > git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 > nano ~/.zshrc
+
+
 Edita ZSH_THEME de manera que quede así
 >ZSH_THEME="powerlevel10k/powerlevel10k"
+
+
 Guarda con Ctrl + X y seguidamente para aplicar los cambios:
 > source ~/.zshrc
+
+
 Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes que te piden.
 Congratulations, ya tienes la terminal relativamente bonita!
 ## Workflow
