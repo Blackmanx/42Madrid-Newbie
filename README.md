@@ -1,11 +1,11 @@
 # Welcome back, traveler.
-Hola, viajero [ [espacial ]], es posible que te haya tragado un Black Hole y has acabado en otro universo después de un tiempo, o probablemente me equivoco y vengas de cierto lugar [[ acuático ]].
+Hola, viajero [[ espacial ]], es posible que te haya tragado un Black Hole y has acabado en otro universo después de un tiempo, o probablemente me equivoco y vengas de cierto lugar [[ acuático ]].
 De igual manera, quizá prefieras ciertos consejos [[ personales ]] para ponerte un poco mas comod@.
 # Time to be a BIG SHOT (within the rules).
 Quizá no venga mal repasar las [guías de convivencia y del edificio](https://github.com/42MadridFT/Guia).
 Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la idea general.
 ## From zero to hero (or not).
-Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de [[ INFORMACION REDACTADA ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
+Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION REDACTADA ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
 > touch ~/.reset
 Obviamente esto es completamente opcional y no tienes por que hacerlo, pero es una opción cuando te empiece a dar problemas el Mac por falta de espacio.
 ## Toqueteando la terminal
@@ -39,6 +39,7 @@ Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos
 
 
 ### VSCode
+======
 VSCode va a ser tu herramienta de trabajo principal para editar código. Es una herramienta multiplataforma, con sincronización incluida o, si no la necesitas, existen variantes FOSS (vscodium). No solo sirve para C, sirve para cualquier tipo de código, aunque no compila al no ser un IDE te permite hacer debugging, además de tener terminales integradas. 
 
 #### Extensiones
