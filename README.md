@@ -39,7 +39,7 @@ Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos
 
 
 ### VSCode
-======
+<hr>
 VSCode va a ser tu herramienta de trabajo principal para editar código. Es una herramienta multiplataforma, con sincronización incluida o, si no la necesitas, existen variantes FOSS (vscodium). No solo sirve para C, sirve para cualquier tipo de código, aunque no compila al no ser un IDE te permite hacer debugging, además de tener terminales integradas. 
 
 #### Extensiones
