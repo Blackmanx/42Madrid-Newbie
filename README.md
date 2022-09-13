@@ -3,16 +3,31 @@ Hola, viajero [[ espacial ]], es posible que te haya tragado un Black Hole y has
 De igual manera, quizá prefieras ciertos consejos [[ personales ]] para ponerte un poco mas comod@.
 # Time to be a BIG SHOT (within the rules).
 Quizá no venga mal repasar las [guías de convivencia y del edificio](https://github.com/42MadridFT/Guia).
-Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la idea general.
+Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la idea general. Por otra parte, me gustaría comentar un par que se incumplen normalmente:
+- Por favor, no echeis líquidos en las máquinas de agua, no tienen un desagüe y se llenan con facilidad, además que luego hay que limpiarlo.
+- No dejeis botellas de agua encima de las mesas de los cluster. Personalmente recomiendo no llevar líquidos encima, en general.
+- No, si hay piscineros NO podeis entrar en los cluster designados a ellos, a no ser de que se especifique lo contrario.
+- El campus es de todos, y como tal, hay que cuidarlo y mantener una limpieza decente. Los envases a sus respectivos contenedores, y si se deja migas o algo por el estilo, o un derrame, tratar de limpiarlo. Esto tambíen se aplica a las duchas y baños, hay que intentar mantenerlos limpios.
+
+Para mas información, podeis consultar los [TIGs](https://meta.intra.42.fr/articles/reglas-de-conducta-y-tig)
+
+Ante dudas, podeis preguntar al staff, cuya información de cada miembro tendréis al lado de la sala de dicho personal con foto incluida.
+
+Por otra parte, estaría bien que repasaras las reglas de Slack, pero lo veremos más tarde en este manual.
 ## From zero to hero (or not).
-Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION REDACTADA ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
+Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
 > touch ~/.reset
+
 Obviamente esto es completamente opcional y no tienes por que hacerlo, pero es una opción cuando te empiece a dar problemas el Mac por falta de espacio.
 ## Toqueteando la terminal
+Dios santo esa terminal por defecto es bastante [[ POCO AGRACIADA]]. Vamos a arreglar eso:
+<hr>
+
 Abre iterm2 y arriba en el menú contextual:
-Profiles > Open Profiles > Edit Profiles > Window > Window Columns and Rows
-Yo recomiendo personalmente 150C 40R, porque las ventanas por defecto son demasiado [[ pequeñas ]].
-Quizá prefieras también instalar Oh my Zsh
+>Profiles > Open Profiles > Edit Profiles > Window > Window Columns and Rows
+
+Yo recomiendo personalmente **150C 40R**, porque las ventanas por defecto son demasiado [[ pequeñas ]].
+Quizá prefieras también instalar Oh my Zsh, en una terminal escribe: 
 > sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)”
 
 Y, si lo has hecho, instalar el popular tema powerlevel10k.
@@ -40,6 +55,7 @@ Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos
 
 ### VSCode
 <hr>
+
 VSCode va a ser tu herramienta de trabajo principal para editar código. Es una herramienta multiplataforma, con sincronización incluida o, si no la necesitas, existen variantes FOSS (vscodium). No solo sirve para C, sirve para cualquier tipo de código, aunque no compila al no ser un IDE te permite hacer debugging, además de tener terminales integradas. 
 
 #### Extensiones
@@ -51,11 +67,16 @@ Un highlighter que nos permite ver los fallos que nos da la Norminette:
 Un colocador del 42 header (Tendras que editar la configuración de la extensión para poner tu nombre de usuario):
 >[Name: 42 Header](https://marketplace.visualstudio.com/items?itemName=kube.42header)
 
+
+A partir de ahi todo es opcional. Yo personalmente recomiendo [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments), y a partir de ahi es cuestión de buscar por necesidades.
+
 #### Snippets
 
 El prefijo de un snippet (prefix) es la variable que invoca al contenido de este. Por ejemplo, si escribes en VSCode **comment42** te pondrá un comentario compatible con norminette (siempre que lo pongas antes o después de una clase, claro).
 
-comment42
+Para crear un snippet, dale a **Settings** en **Vscode > Configure User Snippet** y crea un nuevo snippet global, introduciendo esto (aunque te viene una explicación bastante decente comentada):
+
+
 ```
 {
     "Comentario": {
@@ -75,4 +96,45 @@ comment42
       }
 }
 ```
+
+Una buena gestión de snippets te puede ahorrar bastante tiempo o hacer el código más legible.
+
+### Slack
+
+Este es el principal medio de comunicación que se utiliza en el campus, aparte de los emails. Una vez entres al campus, seguramente te llegará una invitación para registrarte. La dirección del slack es **42born2code.slack.com**, por si tienes que ingresar manualmente. El correo que deberás usar será probablemente **(username)@student.42madrid.com**.
+
+``Es muy recomendable que utilices tu nombre de usuario en slack como el Display Name, y el Full Name tu Nombre y Apellidos completos.`` 
+
+Una vez hecho esto, tendrás un par de canales a tu disposición. Te recomiendo que añadas el resto de tu campus, dandole al icono de + y buscando los canales por 42(tucampus)\_ `Ex: 42Madrid_`. 
+
+Algunas normas del slack que debes saber son:
+- Los mensajes en cada canal deben empezar en un hilo y, si es necesario, seguirse dentro del mismo hilo. Es decir:
+   + Comienzo del hilo:
+   		+ Mensajes dentro del hilo
+
+ Y no:
+	+ Comienzo del hilo
+	+ Otro mensaje en otro hilo relacionado con el hilo anterior
+
+
+- Las imágenes SOLO estan permitidas dentro de los hilos, excepto en los canales \_random.
+- Cada canal tiene su propio tema/objetivo, lee las descripciones de los canales para ver qué va en cada canal. Por ejemplo, la mayoría de problemas con los mac va en el canal de \_it.
+- El canal de ligas NO se usa para que te metan en una liga, para ello pregunta a los responsables de cada liga que se pueden ver en la pagina de 42madrid (o en la descripcion del canal).
+- El canal de MSC, para pedir actualizaciones de programas o programas en sí, tiene un template que hay que seguir.
+
+Por otra parte, el general y el random son canales que siempre se agradece tener vivos, así que no os corteis por usarlos.
+
+### Proyectos
+
+Como este git es público, y no quiero hacer mucho spoiler, simplemente dire que en [La Intranet](https://elearning.intra.42.fr/notions) teneis bastante información para hacer proyectos. No olvideis la carpeta sgoinfre para aquellos que requieran mas espacio de lo habitual.
+
+La norminette ha cambiado, así que conviene que repaseis vuestros proyectos anteriores si no lo habeis hecho para que no os lleveis sustos.
+
+### Ending
+<hr>
+
+De momento esta guía aun necesita muchos retoques, pero creo que está bien para calentar y tener una idea de que tienes que hacer al empezar. Podeis contactarme en slack si quereis hacer un pull request o vuestra contribución.
+
+
+
 
