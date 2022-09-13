@@ -112,10 +112,14 @@ Algunas normas del slack que debes saber son:
    + Comienzo del hilo:
    		+ Mensajes dentro del hilo
 
- Y no:
-	+ Comienzo del hilo
-	+ Otro mensaje en otro hilo relacionado con el hilo anterior
 
+ Y no:
+
+<ul>
+	<li>Comienzo del hilo</li>
+	<li>Otro mensaje en otro hilo relacionado con el hilo anterior</li>
+</ul>
+<hr>
 
 - Las imágenes SOLO estan permitidas dentro de los hilos, excepto en los canales \_random.
 - Cada canal tiene su propio tema/objetivo, lee las descripciones de los canales para ver qué va en cada canal. Por ejemplo, la mayoría de problemas con los mac va en el canal de \_it.
