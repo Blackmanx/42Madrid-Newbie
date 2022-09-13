@@ -134,6 +134,7 @@ Como este git es público, y no quiero hacer mucho spoiler, simplemente dire que
 
 La norminette ha cambiado, así que conviene que repaseis vuestros proyectos anteriores si no lo habeis hecho para que no os lleveis sustos.
 
+Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este post [Medium](https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-ssh-access-vogsphere-remotely-2ccf3c4486a)
 ### Ending
 <hr>
 
