@@ -163,11 +163,13 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 > Añadir, le pones el título que quieras y pegas el output de cat *.pub
 
 - **Me ha dado error de login me pone noseque de ISCSI y no carga nada y me he logueado en 14 diferentes ordenadores AAAAAAAAAAAAAAAAAA AIUDA!!11!!!!**
+
 Citando a **El Fourbo**
 
 >Cuando tenéis un problema y que pone un mensaje ISCSI, NO sirve a nada probar en un otro ordenador! No va a funcionar y por cada ordenador vamos a tener que matar el programa iscsi y reiniciarlo. Si hay mas de 2 tenemos que resetear el home.
 
 - **Le he dado a restaurar de fabrica al Docker y se me ha quedado mas tieso que una regla y no puedo salir de mi sesión.**
+
 Abre el Activity Monitor (El equivalente al Task Manager de Windows) y acaba con el proceso de Docker, o bien
 >man ps
 >man kill
@@ -175,6 +177,7 @@ Abre el Activity Monitor (El equivalente al Task Manager de Windows) y acaba con
 y a jugar (TIP: ps -ef y kill PID).
 
 - **Quiero caer bajo las garras del capitalismo y gastar dolares en la tienda, ¿como reclamo mis COSAS?**
+
 Ve al Staff.
 
 ### Enlaces Interesantes
