@@ -11,6 +11,8 @@ Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la id
 
 Para mas información, podeis consultar los [TIGs](https://meta.intra.42.fr/articles/reglas-de-conducta-y-tig)
 
+Si cometeis una infracción, se os bloqueara el acceso a la intra hasta que cumpláis el TIG. Para cumplirlo, debereis presentaros el día que queráis a las 10 AM.
+
 Ante dudas, podeis preguntar al staff, cuya información de cada miembro tendréis al lado de la sala de dicho personal con foto incluida.
 
 Por otra parte, estaría bien que repasaras las reglas de Slack, pero lo veremos más tarde en este manual.
@@ -75,6 +77,7 @@ A partir de ahi todo es opcional. Yo personalmente recomiendo [Better Comments](
 El prefijo de un snippet (prefix) es la variable que invoca al contenido de este. Por ejemplo, si escribes en VSCode **comment42** te pondrá un comentario compatible con norminette (siempre que lo pongas antes o después de una clase, claro).
 
 Para crear un snippet, dale a **Settings** en **Vscode > Configure User Snippet** y crea un nuevo snippet global, introduciendo esto (aunque te viene una explicación bastante decente comentada):
+![Configure User Snippet](./assets/img/vscode_snippet)
 
 
 ```
@@ -123,7 +126,9 @@ Algunas normas del slack que debes saber son:
 
 - Las imágenes SOLO estan permitidas dentro de los hilos, excepto en los canales \_random.
 - Cada canal tiene su propio tema/objetivo, lee las descripciones de los canales para ver qué va en cada canal. Por ejemplo, la mayoría de problemas con los mac va en el canal de \_it.
-- El canal de ligas NO se usa para que te metan en una liga, para ello pregunta a los responsables de cada liga que se pueden ver en la pagina de 42madrid (o en la descripcion del canal).
+![Slack description](./assets/img/slack_desc.png)
+![Slack header](./assets/img/slack_header.png)
+- El canal de ligas NO se usa para que te metan en una liga, para ello pregunta a los responsables de cada liga que se pueden ver en la [pagina de 42madrid](https://www.42madrid.com/ligas/)(o en la descripcion del canal).
 - El canal de MSC, para pedir actualizaciones de programas o programas en sí, tiene un template que hay que seguir.
 
 Por otra parte, el general y el random son canales que siempre se agradece tener vivos, así que no os corteis por usarlos.
@@ -132,9 +137,25 @@ Por otra parte, el general y el random son canales que siempre se agradece tener
 
 Como este git es público, y no quiero hacer mucho spoiler, simplemente dire que en [La Intranet](https://elearning.intra.42.fr/notions) teneis bastante información para hacer proyectos. No olvideis la carpeta sgoinfre para aquellos que requieran mas espacio de lo habitual.
 
-La norminette ha cambiado, así que conviene que repaseis vuestros proyectos anteriores si no lo habeis hecho para que no os lleveis sustos.
+La [Norminette](./assets/docs/en.norm.v3.pdf) ha cambiado, así que conviene que repaseis vuestros proyectos anteriores si no lo habeis hecho para que no os lleveis sustos.
+
+- **No puedo subir mis proyectos, me da error de key!**
 
 Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este post [Medium](https://medium.com/my-journey-at-42-silicon-valley-as-a-non-cs-major/42-silicon-valley-ssh-access-vogsphere-remotely-2ccf3c4486a)
+
+¿Qué, que no sabes Inglés? Bueno, en este mundillo no llegarás muy lejos sin ello. Pero básicamente es:
+
+> ssh-keygen -t ecdsa
+> `Enter (o pon la contraseña que tu quieras)`
+> cd .ssh
+> cat *.pub
+> Copia el output que te ha dado el comando (ecdsa-sha2-nistp256 ....)
+> Login en la intra
+> Ve a tu perfil > Settings
+> ![Perfil Settings](./assets/img/intra_settings.png)
+> SSH Key 
+> ![Perfil SSH Key](./assets/img/intra_key.png)
+
 ### Ending
 <hr>
 
