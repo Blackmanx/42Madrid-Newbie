@@ -154,9 +154,12 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 > Copia el output que te ha dado el comando (ecdsa-sha2-nistp256 ....)
 > Login en la intra
 > Ve a tu perfil > Settings
-> ![Perfil Settings](./assets/img/intra_settings.png)
+
+![Perfil Settings](./assets/img/intra_settings.png)
 > SSH Key 
-> ![Perfil SSH Key](./assets/img/intra_key.png)
+
+![Perfil SSH Key](./assets/img/intra_key.png)
+
 > Añadir, le pones el título que quieras y pegas el output de cat *.pub
 
 - **Me ha dado error de login me pone noseque de ISCSI y no carga nada y me he logueado en 14 diferentes ordenadores AAAAAAAAAAAAAAAAAA AIUDA!!11!!!!**
@@ -168,6 +171,7 @@ Citando a **El Fourbo**
 Abre el Activity Monitor (El equivalente al Task Manager de Windows) y acaba con el proceso de Docker, o bien
 >man ps
 >man kill
+
 y a jugar (TIP: ps -ef y kill PID).
 
 - **Quiero caer bajo las garras del capitalismo y gastar dolares en la tienda, ¿como reclamo mis COSAS?**
