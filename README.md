@@ -126,8 +126,8 @@ Algunas normas del slack que debes saber son:
 
 - Las imágenes SOLO estan permitidas dentro de los hilos, excepto en los canales \_random.
 - Cada canal tiene su propio tema/objetivo, lee las descripciones de los canales para ver qué va en cada canal. Por ejemplo, la mayoría de problemas con los mac va en el canal de \_it.
+![Slack header](./assets/img/slack_heading.png)
 ![Slack description](./assets/img/slack_desc.png)
-![Slack header](./assets/img/slack_header.png)
 - El canal de ligas NO se usa para que te metan en una liga, para ello pregunta a los responsables de cada liga que se pueden ver en la [pagina de 42madrid](https://www.42madrid.com/ligas/)(o en la descripcion del canal).
 - El canal de MSC, para pedir actualizaciones de programas o programas en sí, tiene un template que hay que seguir.
 
@@ -138,6 +138,8 @@ Por otra parte, el general y el random son canales que siempre se agradece tener
 Como este git es público, y no quiero hacer mucho spoiler, simplemente dire que en [La Intranet](https://elearning.intra.42.fr/notions) teneis bastante información para hacer proyectos. No olvideis la carpeta sgoinfre para aquellos que requieran mas espacio de lo habitual.
 
 La [Norminette](./assets/docs/en.norm.v3.pdf) ha cambiado, así que conviene que repaseis vuestros proyectos anteriores si no lo habeis hecho para que no os lleveis sustos.
+
+### FAQ
 
 - **No puedo subir mis proyectos, me da error de key!**
 
@@ -155,6 +157,29 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 > ![Perfil Settings](./assets/img/intra_settings.png)
 > SSH Key 
 > ![Perfil SSH Key](./assets/img/intra_key.png)
+> Añadir, le pones el título que quieras y pegas el output de cat *.pub
+
+- **Me ha dado error de login me pone noseque de ISCSI y no carga nada y me he logueado en 14 diferentes ordenadores AAAAAAAAAAAAAAAAAA AIUDA!!11!!!!**
+Citando a **El Fourbo**
+
+>Cuando tenéis un problema y que pone un mensaje ISCSI, NO sirve a nada probar en un otro ordenador! No va a funcionar y por cada ordenador vamos a tener que matar el programa iscsi y reiniciarlo. Si hay mas de 2 tenemos que resetear el home.
+
+- **Le he dado a restaurar de fabrica al Docker y se me ha quedado mas tieso que una regla y no puedo salir de mi sesión.**
+Abre el Activity Monitor (El equivalente al Task Manager de Windows) y acaba con el proceso de Docker, o bien
+>man ps
+>man kill
+y a jugar (TIP: ps -ef y kill PID).
+
+- **Quiero caer bajo las garras del capitalismo y gastar dolares en la tienda, ¿como reclamo mis COSAS?**
+Ve al Staff.
+
+### Enlaces Interesantes
+> [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)  
+
+Un fork de (42Toolbox)[https://github.com/alexandregv/42toolbox] que ire tocando para nuestras necesidades.
+>[https://github.com/agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet) 
+
+Un repositorio con ciertos consejos de C y proyectos del campus de parte de un fellow student.
 
 ### Ending
 <hr>
