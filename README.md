@@ -76,9 +76,10 @@ A partir de ahi todo es opcional. Yo personalmente recomiendo [Better Comments](
 #### Snippets
 
 El prefijo de un snippet (prefix) es la variable que invoca al contenido de este. Por ejemplo, si escribes en VSCode **comment42** te pondrá un comentario compatible con norminette (siempre que lo pongas antes o después de una clase, claro).
+<img alt="Configure User Snippet" src="./assets/img/vscode_snippet.png" width="350" height="350">
 
 Para crear un snippet, dale a **Settings** en **Vscode > Configure User Snippet** y crea un nuevo snippet global, introduciendo esto (aunque te viene una explicación bastante decente comentada):
-<img alt="Configure User Snippet" src="./assets/img/vscode_snippet.png" width="400" height="300">
+
 
 
 ```
@@ -127,7 +128,7 @@ Algunas normas del slack que debes saber son:
 
 - Las imágenes SOLO estan permitidas dentro de los hilos, excepto en los canales \_random.
 - Cada canal tiene su propio tema/objetivo, lee las descripciones de los canales para ver qué va en cada canal. Por ejemplo, la mayoría de problemas con los mac va en el canal de \_it.
-<img alt="Slack header" src="./assets/img/slack_heading.png" width="700" height="100">
+<img alt="Slack header" src="./assets/img/slack_heading.png" width="750" height="75">
 <img alt="Slack description" src="./assets/img/slack_desc.png" width="350" height="300">
 - El canal de ligas NO se usa para que te metan en una liga, para ello pregunta a los responsables de cada liga que se pueden ver en la [pagina de 42madrid" src="https://www.42madrid.com/ligas/)(o en la descripcion del canal).
 - El canal de MSC, para pedir actualizaciones de programas o programas en sí, tiene un template que hay que seguir.
@@ -135,8 +136,8 @@ Algunas normas del slack que debes saber son:
 
 **¿Hay más normas o no te queda claro?** Consulta estos diagramas hechos por el staff:
 <p>
-<img alt="Slack Norm" src="./assets/img/norm_slack.png" width="350" height="400">
-<img alt="Slack Norm" src="./assets/img/emojis.png" width="350" height="400">
+<img alt="Slack Norm" src="./assets/img/norm_slack.png" width="350" height="475">
+<img alt="Slack Norm" src="./assets/img/emojis.png" width="350" height="475">
 
 </p>
 Por otra parte, el general y el random son canales que siempre se agradece tener vivos, así que no os corteis por usarlos.
@@ -169,10 +170,10 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 >
 > Ve a tu perfil > Settings
 
-<img alt="Perfil Settings" src="./assets/img/intra_settings.png" width="400" height="300">
+<img alt="Perfil Settings" src="./assets/img/intra_settings.png" width="300" height="200">
 > SSH Key 
 
-<img alt="Perfil SSH Key" src="./assets/img/intra_key.png" width="400" height="300">
+<img alt="Perfil SSH Key" src="./assets/img/intra_key.png" width="300" height="200">
 
 > Añadir, le pones el título que quieras y pegas el output de cat *.pub
 
