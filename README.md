@@ -149,11 +149,17 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 ¿Qué, que no sabes Inglés? Bueno, en este mundillo no llegarás muy lejos sin ello. Pero básicamente es:
 
 > ssh-keygen -t ecdsa
+>
 > `Enter (o pon la contraseña que tu quieras)`
+>
 > cd .ssh
+>
 > cat *.pub
+>
 > Copia el output que te ha dado el comando (ecdsa-sha2-nistp256 ....)
+>
 > Login en la intra
+>
 > Ve a tu perfil > Settings
 
 ![Perfil Settings](./assets/img/intra_settings.png)
