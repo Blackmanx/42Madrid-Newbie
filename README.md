@@ -78,7 +78,7 @@ A partir de ahi todo es opcional. Yo personalmente recomiendo [Better Comments](
 El prefijo de un snippet (prefix) es la variable que invoca al contenido de este. Por ejemplo, si escribes en VSCode **comment42** te pondrá un comentario compatible con norminette (siempre que lo pongas antes o después de una clase, claro).
 
 Para crear un snippet, dale a **Settings** en **Vscode > Configure User Snippet** y crea un nuevo snippet global, introduciendo esto (aunque te viene una explicación bastante decente comentada):
-![Configure User Snippet](./assets/img/vscode_snippet)
+![Configure User Snippet](./assets/img/vscode_snippet.png)
 
 
 ```
