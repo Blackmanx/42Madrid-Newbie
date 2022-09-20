@@ -35,6 +35,7 @@ Quizá prefieras también instalar Oh my Zsh, en una terminal escribe:
 Y, si lo has hecho, instalar el popular tema powerlevel10k.
 
 > git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+>
 > nano ~/.zshrc
 
 
@@ -183,7 +184,7 @@ Ve al Staff.
 ### Enlaces Interesantes
 > [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)  
 
-Un fork de (42Toolbox)[https://github.com/alexandregv/42toolbox] que ire tocando para nuestras necesidades.
+Un fork de [42Toolbox](https://github.com/alexandregv/42toolbox) que ire tocando para nuestras necesidades.
 >[https://github.com/agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet) 
 
 Un repositorio con ciertos consejos de C y proyectos del campus de parte de un fellow student.
