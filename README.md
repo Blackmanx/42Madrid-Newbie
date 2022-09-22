@@ -55,6 +55,40 @@ Ahí se anuncian todos los comunicados de 42, además de que es el sitio donde p
 
 Después de Slack lo normal es instalar VSCode (a no ser de que seas uno de esos psicópatas que gustan de VIM, que aunque no fuera así deberías tener que manejarlo a un mínimo nivel de guardar archivos, escribir y copiar/pegar textos.) Si eres un psicoVIMpata puedes saltarte la sección de VSCode.
 
+### Norminette
+Norminette por defecto está instalado en los campus, pero si quieres usarlo en tu ordenador (Se recomienda, por lo general, [Ubuntu ~y posiblemente en el campus sera usado en el futuro~)](https://42born2code.slack.com/archives/CN3D33GRX/p1658235229616819) tendrás que hacer ciertas modificaciones.
+
+Para instalar norminette, en una terminal de Ubuntu:
+
+```
+sudo apt install python3 python3-pip
+python3 -m pip install --upgrade pip setuptools
+python3 -m pip install norminette
+```
+
+Si se necesita actualizar:
+
+`python3 -m pip install --upgrade norminette`
+
+Para usarlo, simplemente
+
+`norminette filename [...]`
+
+Recuerda que norminette no funciona con archivos que no sean .c o .h
+
+
+
+### VIM
+>(a no ser de que seas uno de esos psicópatas que gustan de VIM, que aunque no fuera así deberías tener que manejarlo a un mínimo nivel de guardar archivos, escribir y copiar/pegar textos.)
+
+¡Hora de aprender a hacer eso! (O puedes simplemente usar nano, que es lo mismo pero un poquito mas user-friendly).
+
+Para usar vim, simplemente abre una terminal y:
+`vim filename`
+Esto abrirá el editor. Para empezar a escribir en el, presiona 'i' para entrar en INSERT MODE. Para salir de INSERT MODE o cualquier otro modo, puedes usar 'Esc'. Una vez 'Esc', puedes introducir comandos usando ":string"
+Por ejemplo, :wq guarda el documento que estás escribiendo y sale de vim. (write, quit).
+Para hacer comandos sobre el texto en sí que estés escribiendo, debes usar el Visual Mode, cuya activación se hace presionando 'v'. 
+Te recomiendo que leas este [cheat sheet](https://vim.rtorr.com/) y vayas probando por ti mismo
 
 ### VSCode
 <hr>
