@@ -1,9 +1,14 @@
 # Welcome back, traveler.
+
 Hola, viajero [[ espacial ]], es posible que te haya tragado un Black Hole y has acabado en otro universo después de un tiempo, o probablemente me equivoco y vengas de cierto lugar [[ acuático ]].
 De igual manera, quizá prefieras ciertos consejos [[ personales ]] para ponerte un poco mas comod@.
-# Time to be a BIG SHOT (within the rules).
+
+## Time to be a BIG SHOT (within the rules).
+<hr>
 Quizá no venga mal repasar las [guías de convivencia y del edificio](https://github.com/42MadridFT/Guia).
 Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la idea general. Por otra parte, me gustaría comentar un par que se incumplen normalmente:
+
+
 - Por favor, no echeis líquidos en las máquinas de agua, no tienen un desagüe y se llenan con facilidad, además que luego hay que limpiarlo.
 - No dejeis botellas de agua encima de las mesas de los cluster. Personalmente recomiendo no llevar líquidos encima, en general.
 - No, si hay piscineros NO podeis entrar en los cluster designados a ellos, a no ser de que se especifique lo contrario.
@@ -16,15 +21,20 @@ Si cometeis una infracción, se os bloqueara el acceso a la intra hasta que cump
 Ante dudas, podeis preguntar al staff, cuya información de cada miembro tendréis al lado de la sala de dicho personal con foto incluida.
 
 Por otra parte, estaría bien que repasaras las reglas de Slack, pero lo veremos más tarde en este manual.
+
 ## From zero to hero (or not).
-Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
+<hr>
+Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. 
+
+Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
 > touch ~/.reset
 
 Obviamente esto es completamente opcional y no tienes por que hacerlo, pero es una opción cuando te empiece a dar problemas el Mac por falta de espacio.
 ## Toqueteando la terminal
-Dios santo esa terminal por defecto es bastante [[ POCO AGRACIADA]]. Vamos a arreglar eso:
 <hr>
-
+Dios santo esa terminal por defecto es bastante [[ POCO AGRACIADA]]. Vamos a arreglar eso:
+<br>
+<br>
 Abre iterm2 y arriba en el menú contextual:
 >Profiles > Open Profiles > Edit Profiles > Window > Window Columns and Rows
 
@@ -49,7 +59,14 @@ Guarda con Ctrl + X y seguidamente para aplicar los cambios:
 
 Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes que te piden.
 Congratulations, ya tienes la terminal relativamente bonita!
+
+## Intranet
+<hr>
+Lo primero que deberías abrir sería tu sesion en la [Intranet](https://intra.42.fr). Es recomendable que abras slots de corrección en el tiempo que vayas a estar en el campus:
+`Click en tu perfil > Manage Slots > Selecciona un rango de tiempo para corregir`
+
 ## Workflow
+<hr>
 Para trabajar en 42 supongo que ya tienes preparado el Slack, pero si no te recomiendo que lo pongas tanto en el mac como en tus dispositivos móviles y te conectes al espacio de trabajo de 42born2code(.slack.com).
 Ahí se anuncian todos los comunicados de 42, además de que es el sitio donde preferiblemente debes reportar problemas o dar tus aportaciones. Tendrás que cumplir varias normas en Slack que tocaremos más adelante en la guía **(NO las ignores)**.
 
@@ -75,7 +92,6 @@ Para usarlo, simplemente
 `norminette filename [...]`
 
 Recuerda que norminette no funciona con archivos que no sean .c o .h
-
 
 
 ### VIM
@@ -232,7 +248,7 @@ Ve al Staff.
 ### Enlaces Interesantes
 > [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)  
 
-Un fork de [42Toolbox](https://github.com/alexandregv/42toolbox) que ire tocando para nuestras necesidades.
+Un fork de [42Toolbox](httxips://github.com/alexandregv/42toolbox) que ire tocando para nuestras necesidades.
 >[https://github.com/agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet) 
 
 Un repositorio con ciertos consejos de C y proyectos del campus de parte de un fellow student.
