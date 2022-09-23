@@ -4,7 +4,7 @@ Hola, viajero [[ espacial ]], es posible que te haya tragado un Black Hole y has
 De igual manera, quizá prefieras ciertos consejos [[ personales ]] para ponerte un poco mas comod@.
 
 ## Time to be a BIG SHOT (within the rules).
-<hr>
+
 Quizá no venga mal repasar las [guías de convivencia y del edificio](https://github.com/42MadridFT/Guia).
 Les falta una [[ actualización ]] en algunos puntos, pero te puedes hacer la idea general. Por otra parte, me gustaría comentar un par que se incumplen normalmente:
 
@@ -23,7 +23,6 @@ Ante dudas, podeis preguntar al staff, cuya información de cada miembro tendré
 Por otra parte, estaría bien que repasaras las reglas de Slack, pero lo veremos más tarde en este manual.
 
 ## From zero to hero (or not).
-<hr>
 Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. 
 
 Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
@@ -31,7 +30,6 @@ Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a tr
 
 Obviamente esto es completamente opcional y no tienes por que hacerlo, pero es una opción cuando te empiece a dar problemas el Mac por falta de espacio.
 ## Toqueteando la terminal
-<hr>
 Dios santo esa terminal por defecto es bastante [[ POCO AGRACIADA]]. Vamos a arreglar eso:
 <br>
 <br>
@@ -61,12 +59,10 @@ Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes
 Congratulations, ya tienes la terminal relativamente bonita!
 
 ## Intranet
-<hr>
 Lo primero que deberías abrir sería tu sesion en la [Intranet](https://intra.42.fr). Es recomendable que abras slots de corrección en el tiempo que vayas a estar en el campus:
 `Click en tu perfil > Manage Slots > Selecciona un rango de tiempo para corregir`
 
 ## Workflow
-<hr>
 Para trabajar en 42 supongo que ya tienes preparado el Slack, pero si no te recomiendo que lo pongas tanto en el mac como en tus dispositivos móviles y te conectes al espacio de trabajo de 42born2code(.slack.com).
 Ahí se anuncian todos los comunicados de 42, además de que es el sitio donde preferiblemente debes reportar problemas o dar tus aportaciones. Tendrás que cumplir varias normas en Slack que tocaremos más adelante en la guía **(NO las ignores)**.
 
