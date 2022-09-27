@@ -58,7 +58,11 @@ Contada esta pequeña historia sobre los sistemas de control de versiones, como 
 
 Hay múltiples interfaces para trabajar con Git, tanto de línea de comandos como interfaces gráficas. Sin embargo, es **altamente** recomendable (por no decir moralmente obligatorio) dominar Git en todo su esplendor desde la interfaz de comandos oficial. Es de hecho muy probable que si así lo haces, y una vez te acostumbres, no quieras usar ninguna interfaz más. Pues Git es un proyecto tan avanzado, son tantas las combinaciones y opciones que ofrece, que no habrían botones suficientes en ninguna GUI para representarlas. Usando pues el CLI oficial, te pones tú al volante del crucero espacial, porque ya sabemos lo que pasa cuando dejamos demasiada cancha al piloto automático. 
 
-Cuando le cojas el tranquillo a la CLI, te recomiendo que utilices la app oficial de Github Desktop para ahorrar tiempo. En el campus disponemos de gitkraken
+`Y no, utilizar Git como Google Drive o simplemente hacer git init && git remote add origin repo && git add * && git commit -m "covfefe" && git push origin main --force no es saber utilizar Git`
+
+Cuando le cojas el tranquillo a la CLI, te recomiendo que utilices la app oficial de Github Desktop para ahorrar tiempo y utilizar una combinación de ambas cosas, a tu gusto. En el campus disponemos de gitkraken, aunque desde mi punto de vista es más complejo que usar la terminal directamente y la interfaz en general es poco intuitiva. Lo único que me gusta de ello es que el editor de conflictos es bastante decente.
+
+Si quieres aprender la utilización de la CLI, y en general entender mejor el control de versiones, te recomiendo que mires [esta clase de Missing Semester y sus apuntes](https://missing.csail.mit.edu/2020/version-control/).
 </details>
 <br>
 
