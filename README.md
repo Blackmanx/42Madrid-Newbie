@@ -193,7 +193,6 @@ La terminal por defecto de los ordenadores de la 42 (OSX por ahora) es [iTerm2](
   La Shell
   </summary>
 
-
 Siguiendo el orden lógico de las cosas, después de la terminal viene la shell, una terminal no es nada sin una shell que se ejecute dentro de ella, y la shell no es más que una aplicación interactiva en la que mediante comandos vas a poder comunicarte con tu sistema operativo de elección. De nuevo aquí contamos con una amplia gama de opciones, sin embargo, en esto tenemos un handicap que considerar de unas respecto a las otras. Para entender la importancia de este handicap, es necesario primero que os introduzca el sistema [POSIX](https://en.wikipedia.org/wiki/POSIX) (grabad este nombre a fuego en lo más hondo de vuestro hipotálamo, pues es de las cosas más importantes que podéis aprender). No voy a alargarme mucho en esta explicación, pues en sí, POSIX es de carácter puramente teórico, y, por lo tanto, hay toneladas de información en la web. Para definirlo de forma rápida, POSIX es un estándar de interfaces, es decir, una guia para que todos los programadores del mundo nos pongamos de acuerdo en la forma con la que nos comunicamos con nuestro ordenador. De forma que, no importe en que sistema operativo estemos, ni que hardware tengamos, ni que dispositivos hayamos conectado a nuestro ordenador, la forma de comunicación siempre será la misma. Por así decirlo POSIX es a la comunicación con nuestro ordenador, como el inglés es a la comunicación entre personas: Todos acordaron que es el método oficial; no tantos como quisiéramos lo hablan correctamente; y muchos lo hablan pero a medias. Por ejemplificar GNULinux es el sistema más POSIX que podemos encontrar. OSX estaría por ahí en medio tonteando con POSIX. Y Windows es simplemente un desastre y va a su bola (hay por ahí un proyecto en el que están haciendo de Windows un sistema POSIX, pero ya veremos).
 
 ¿Y a que viene todo esto para elegir nuestra shell? Pues bien, siendo rigurosos, [Bash](https://www.gnu.org/software/bash/) es la única shell que es POSIX. Por tanto, os **recomiendo encarecidamente** que durante vuestro aprendizaje, y antes de pasar a alternativas más sofisticadas, aprendáis Bash hasta que os sintáis capaces de generar la piedra filosofal con ella.
@@ -204,37 +203,8 @@ Os dejo por aquí las tres shells mas famosas en orden descendente de POSIX-comp
 - [Zsh](https://www.zsh.org/)
 - [Fish](https://fishshell.com/)
 
-  <details>
-     <summary style="font-size:1.2em;">
-      ZSH
-     </summary>
-    Dios santo esa shell por defecto es bastante [[ POCO AGRACIADA ]]. Yo personalmente uso ZSH,
-    <br>
-    <br>
 
-    Quizá prefieras también instalar Oh my Zsh, en una terminal escribe:
-
-    ```
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    ```
-
-    Y, si lo has hecho, instalar el popular tema powerlevel10k.
-    ```
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-    nano ~/.zshrc
-    ```
-
-    Edita ZSH_THEME de manera que quede así
-    >ZSH_THEME="powerlevel10k/powerlevel10k"
-
-
-    Guarda con Ctrl + X y seguidamente para aplicar los cambios:
-    > source ~/.zshrc
-
-
-    Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes que te piden, en caso de que estés en Linux.
-    Congratulations, ya tienes la terminal relativamente bonita!
-  </details>
+  
 </details>
 <br>
 
@@ -246,6 +216,7 @@ Os dejo por aquí las tres shells mas famosas en orden descendente de POSIX-comp
 <pre>
 Oh, el eterno dilema. El editor que elijas usar va a ser la decisión más importante que debas tomar en esta: Tu cruzada. Esta elección te situará irremediablemente en un bando del que no podrás huir. Correrán por su nombre caudalosos ríos de sangre y vísceras. Y morirás defendiendo el bastión hasta el último aliento.
 </pre>
+
 Antes de los hombres no había nada, un eterno vacío. Luego, en los albores de la civilización se forjaron en ríos de lava [Emacs](https://www.gnu.org/software/emacs/) y [Vi](https://en.wikipedia.org/wiki/Vi). Entonces la [eterna guerra](https://en.wikipedia.org/wiki/Editor_war) por el control estalló, y perdura hasta estos días.
 
 Siguiendo una tradición ancestral, 42 ofrece por defecto dos editores: [Emacs](https://www.gnu.org/software/emacs/) y [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)). Tomándonos un poco más en serio esta sección, esta no es una decisión tomada a la ligera. Sendos editores, aun siendo intrínsecamente distintos de base, cumplen una serie de funciones que jamás hay que subestimar. En primer lugar, os permiten editar ficheros (recordemos que UNIX todo, [absolutamente todo son ficheros](https://en.wikipedia.org/wiki/Everything_is_a_file)!), con lo que va a ser vuestra principal herramienta de trabajo, donde más tiempo vais a pasar. Seguidamente, estos, por defecto, son editores planos, ofrecen una mínima ayuda a su usuario. ¡Y esto es muy bueno! Como aprendices os va a obligar a bajar a las trincheras, a pelear por vuestro código. En un principio será una ardua tarea. No va a ser cómodo. Pero poco a poco todo ese trabajo va a ir generando valor. El conocimiento que vais a ir adquiriendo de forma tanto directa como colateral (vais a acabar informándoos de muchas cosas por el camino hasta desenterrar exactamente lo que queréis) se va a ir sedimentando en la base de vuestro cráneo. Y llegado un punto, os daréis cuenta de que muchas cosas que antes se os trababan en la punta de los dedos, ahora os fluyen naturalmente y sin esfuerzo. ¡Ésta es la metodología 42!
