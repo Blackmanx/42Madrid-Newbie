@@ -23,7 +23,7 @@ Ante dudas, podeis preguntar al staff, cuya información de cada miembro tendré
 Por otra parte, estaría bien que repasaras las reglas de Slack, pero lo veremos más tarde en este manual.
 
 ## From zero to hero (or not).
-Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas. 
+Nuevamente, mi recomendación personal, pero muchas personas o bien tendrán el escritorio lleno de   [[ INFORMACION CONFIDENCIAL ]], o tendrán muchas aplicaciones antiguas que ya no sirven o están deprecadas.
 
 Te recomiendo que hagas una copia de seguridad ya sea a través de GitHub o a través de goinfre (en general mejor GitHub, ya deberías estar subiendo tus proyectos a un repositorio personal privado) y hacer un reset a tu usuario. Para ello, abre una terminal y pon
 > touch ~/.reset
@@ -50,13 +50,13 @@ Abarquemos primero el tema menos interesante: las herramientas que debes usar, a
   </summary>
 
 <pre style="height:15em;width:5empx;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-Al principio de los tiempos existían los protoplanetas, pedacitos de roca diseminados de manera caótica en lo largo y ancho de la galaxia. La gente trabajaba sobre ellos sin control alguno, cogiendo de aquí y allá lo que les convenía, formando pedazos de roca más grande a los que tenían la valentía de llamar planetas. Ahora, eso no era tarea sencilla, los errores eran comunes y catastróficos. Pero como no tenían traza alguna de que ni de donde venían los pedazos que formaban sus planetas, eran incapaces de volver sobre sus pasos para encontrar el origen de un planeta mal formado. Así no les quedaba otra que desechar meses de trabajo y volver a empezar. Tras un tiempo de trabajo con esta dinámica primitiva, y ya habiendo adquirido consciencia colectiva de que no era posible hacer nada mínimamente complejo, y que así pudiera albergar vida, algún ilustrado anónimo vio a bien guardar las etapas de la construcción de su planeta en pequeñas cajas de madera (archivos comprimidos). De la misma forma que uno se guarda las partidas de un juego para poder reintentar los niveles con distintas estrategias. De esta forma, en cuanto nuestro ser ilustrado veía que su planeta no iba por buen camino, volvía a rebuscar en la última caja que sabía que podía servirle como base de un buen planeta, y retomaba el trabajo desde ese punto. Así pues, las civilizaciones constructoras de planetas ya no tenían que empezar de cero cada vez que cometían un fallo. Sin embargo, con el tiempo, ya habiendo olvidado la caótica actividad de no tener puntos de guardado, y deseando invertir tiempo no en el trabajo en sí, sino en un sistema control de dicho trabajo, empezaron a idear formas mejores de aplicar la misma idea de base (tener pequeñas cajas que representaban una etapa concreta de su trabajo) pero de forma más automática, intentando que estuviera en la medida de lo posible en un segundo plano, y así pudieran concentrarse de pleno en la complejidad que es construir un planeta. 
+Al principio de los tiempos existían los protoplanetas, pedacitos de roca diseminados de manera caótica en lo largo y ancho de la galaxia. La gente trabajaba sobre ellos sin control alguno, cogiendo de aquí y allá lo que les convenía, formando pedazos de roca más grande a los que tenían la valentía de llamar planetas. Ahora, eso no era tarea sencilla, los errores eran comunes y catastróficos. Pero como no tenían traza alguna de que ni de donde venían los pedazos que formaban sus planetas, eran incapaces de volver sobre sus pasos para encontrar el origen de un planeta mal formado. Así no les quedaba otra que desechar meses de trabajo y volver a empezar. Tras un tiempo de trabajo con esta dinámica primitiva, y ya habiendo adquirido consciencia colectiva de que no era posible hacer nada mínimamente complejo, y que así pudiera albergar vida, algún ilustrado anónimo vio a bien guardar las etapas de la construcción de su planeta en pequeñas cajas de madera (archivos comprimidos). De la misma forma que uno se guarda las partidas de un juego para poder reintentar los niveles con distintas estrategias. De esta forma, en cuanto nuestro ser ilustrado veía que su planeta no iba por buen camino, volvía a rebuscar en la última caja que sabía que podía servirle como base de un buen planeta, y retomaba el trabajo desde ese punto. Así pues, las civilizaciones constructoras de planetas ya no tenían que empezar de cero cada vez que cometían un fallo. Sin embargo, con el tiempo, ya habiendo olvidado la caótica actividad de no tener puntos de guardado, y deseando invertir tiempo no en el trabajo en sí, sino en un sistema control de dicho trabajo, empezaron a idear formas mejores de aplicar la misma idea de base (tener pequeñas cajas que representaban una etapa concreta de su trabajo) pero de forma más automática, intentando que estuviera en la medida de lo posible en un segundo plano, y así pudieran concentrarse de pleno en la complejidad que es construir un planeta.
 </pre>
 De esta forma nacieron los sistemas de control de versiones ([VCS](https://en.wikipedia.org/wiki/Version_control)) en su forma más primitiva. Entre ellos podemos contar con [SCCS](https://en.wikipedia.org/wiki/Source_Code_Control_System), [RCS](https://en.wikipedia.org/wiki/Revision_Control_System) y [SVN](https://subversion.apache.org/) (Aún hay empresas que usan Subversion!). Algunos de estos antiguos sistemas de control de versiones contaban con muchas características de las que podemos ver reflejos en los sistemas más modernos. Como por ejemplo la existencia de ramas de trabajo. Así múltiples personas pueden trabajar sobre la misma base sin chafarse los unos a los otros. O los tags/releases, para poner una bandera en las etapas estables del proyecto que representan una unidad funcional. Con todo, y para los estándares modernos esto no era suficiente. Estas herramientas, aunque suponiendo un gran paso respecto al salvaje oeste que en el que vivían los primeros desarrolladores, seguían estorbando considerablemente. No eran suficientemente inteligentes para suplir las problemáticas con las que el desarrollador moderno se encuentra en su día a día. Así pues, Linus Torvalds, en su encíclica cruzada, vino a solventar los mundanos problemas del ingeniero moderno, abriendo la veda a los sistemas de control de versiones modernos. Nació [Git](https://git-scm.com/). Con esta futurista herramienta, los nuevos programadores tenían a su disposición una navaja suiza para cortar, coser, solapar y quimerizar su código a gusto y sin limitaciones. Trayendo consigo nuevas herramientas como [cherry picking](https://git-scm.com/docs/git-cherry-pick), [bisect](https://git-scm.com/docs/git-bisect), [rebase](https://git-scm.com/docs/git-rebase) y muchas más.
 
 Contada esta pequeña historia sobre los sistemas de control de versiones, como es evidente, la elección de 42, y, por tanto, nuestra obligación, es aprender y usar Git. Esta es tu interfaz para publicar código en los servidores de 42. Así otros alumnos, principalmente tus correctores o compañeros de equipo pueden acceder a tu trabajo para revisarlo, modificarlo y demás. Por lo tanto, es altamente recomendado adquirir un conocimiento profundo sobre el mismo, porque, no nos engañemos, también será tu herramienta cuando plantes los pies en el terreno de la empresa.
 
-Hay múltiples interfaces para trabajar con Git, tanto de línea de comandos como interfaces gráficas. Sin embargo, es **altamente** recomendable (por no decir moralmente obligatorio) dominar Git en todo su esplendor desde la interfaz de comandos oficial. Es de hecho muy probable que si así lo haces, y una vez te acostumbres, no quieras usar ninguna interfaz más. Pues Git es un proyecto tan avanzado, son tantas las combinaciones y opciones que ofrece, que no habrían botones suficientes en ninguna GUI para representarlas. Usando pues el CLI oficial, te pones tú al volante del crucero espacial, porque ya sabemos lo que pasa cuando dejamos demasiada cancha al piloto automático. 
+Hay múltiples interfaces para trabajar con Git, tanto de línea de comandos como interfaces gráficas. Sin embargo, es **altamente** recomendable (por no decir moralmente obligatorio) dominar Git en todo su esplendor desde la interfaz de comandos oficial. Es de hecho muy probable que si así lo haces, y una vez te acostumbres, no quieras usar ninguna interfaz más. Pues Git es un proyecto tan avanzado, son tantas las combinaciones y opciones que ofrece, que no habrían botones suficientes en ninguna GUI para representarlas. Usando pues el CLI oficial, te pones tú al volante del crucero espacial, porque ya sabemos lo que pasa cuando dejamos demasiada cancha al piloto automático.
 
 `Y no, utilizar Git como Google Drive o simplemente hacer git init && git remote add origin repo && git add * && git commit -m "covfefe" && git push origin main --force no es saber utilizar Git`
 
@@ -76,9 +76,19 @@ Ahí se anuncian todos los comunicados de 42, además de que es el sitio donde p
 
 Este es el principal medio de comunicación que se utiliza en el campus, aparte de los emails. Una vez entres al campus, seguramente te llegará una invitación para registrarte. La dirección del slack es **42born2code.slack.com**, por si tienes que ingresar manualmente. El correo que deberás usar será probablemente **(username)@student.42madrid.com**.
 
-``Es muy recomendable que utilices tu nombre de usuario en slack como el Display Name, y el Full Name tu Nombre y Apellidos completos.`` 
+``Es muy recomendable que utilices tu nombre de usuario en slack como el Display Name, y el Full Name tu Nombre y Apellidos completos.``
 
-Una vez hecho esto, tendrás un par de canales a tu disposición. Te recomiendo que añadas el resto de tu campus, dandole al icono de + y buscando los canales por 42(tucampus)\_ `Ex: 42Madrid_`. 
+Una vez hecho esto, tendrás un par de canales a tu disposición. Te recomiendo que añadas el resto de tu campus, dandole al icono de + y buscando los canales por 42(tucampus)\_ `Ex: 42Madrid_`.
+
+> Slack me da asco porque me pide updates cada dos minutos
+
+Cool. Puedes poner en tu terminal:
+
+```
+defaults write Library/Preferences/com.tinyspeck.slackmacgap.plist SlackNoAutoUpdates -bool YES
+```
+
+Y el problema se acaba.
 
 Algunas normas del slack que debes saber son:
 - Los mensajes en cada canal deben empezar en un hilo y, si es necesario, seguirse dentro del mismo hilo. Es decir:
@@ -172,6 +182,8 @@ Como aplicación que es, tenemos un gran catálogo en formas, colores, y sabores
 - [St](https://st.suckless.org/) (Pegale un ojo al software que hace la gente de [suckless.org](https://suckless.org/))
 
 La terminal por defecto de los ordenadores de la 42 (OSX por ahora) es [iTerm2](https://iterm2.com/).
+
+
 </details>
 <br>
 
@@ -192,6 +204,37 @@ Os dejo por aquí las tres shells mas famosas en orden descendente de POSIX-comp
 - [Zsh](https://www.zsh.org/)
 - [Fish](https://fishshell.com/)
 
+  <details>
+     <summary style="font-size:1.2em;">
+      ZSH
+     </summary>
+    Dios santo esa shell por defecto es bastante [[ POCO AGRACIADA ]]. Yo personalmente uso ZSH,
+    <br>
+    <br>
+
+    Quizá prefieras también instalar Oh my Zsh, en una terminal escribe:
+
+    ```
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
+
+    Y, si lo has hecho, instalar el popular tema powerlevel10k.
+    ```
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    nano ~/.zshrc
+    ```
+
+    Edita ZSH_THEME de manera que quede así
+    >ZSH_THEME="powerlevel10k/powerlevel10k"
+
+
+    Guarda con Ctrl + X y seguidamente para aplicar los cambios:
+    > source ~/.zshrc
+
+
+    Ahora configura powerlevel10k a tu gusto. Te recomiendo que instales las fuentes que te piden, en caso de que estés en Linux.
+    Congratulations, ya tienes la terminal relativamente bonita!
+  </details>
 </details>
 <br>
 
@@ -237,19 +280,31 @@ Necesitareis key ssh para subir los proyectos, os recuerdo como hacerlo en este 
 >
 > Ve a tu perfil > Settings
 
+<br>
+
 <img alt="Perfil Settings" src="./assets/img/intra_settings.png" width="300" height="200">
 
-> SSH Key 
+<br>
+
+> SSH Key
+
+<br>
 
 <img alt="Perfil SSH Key" src="./assets/img/intra_key.png" width="300" height="200">
 
+<br>
+
 > Añadir, le pones el título que quieras y pegas el output de cat *.pub
+
+<hr>
 
 - **Me ha dado error de login me pone noseque de ISCSI y no carga nada y me he logueado en 14 diferentes ordenadores AAAAAAAAAAAAAAAAAA AIUDA!!11!!!!**
 
 Citando a **El Fourbo**
 
 >Cuando tenéis un problema y que pone un mensaje ISCSI, NO sirve a nada probar en un otro ordenador! No va a funcionar y por cada ordenador vamos a tener que matar el programa iscsi y reiniciarlo. Si hay mas de 2 tenemos que resetear el home.
+
+<hr>
 
 - **Le he dado a restaurar de fabrica al Docker y se me ha quedado mas tieso que una regla y no puedo salir de mi sesión.**
 
@@ -264,10 +319,10 @@ y a jugar (TIP: ps -ef y kill PID).
 Ve al Staff.
 
 ### Enlaces Interesantes
-> [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)  
+> [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)
 
 Un fork de [42Toolbox](httxips://github.com/alexandregv/42toolbox) que ire tocando para nuestras necesidades.
->[https://github.com/agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet) 
+>[https://github.com/agavrel/42_CheatSheet](https://github.com/agavrel/42_CheatSheet)
 
 Un repositorio con ciertos consejos de C y proyectos del campus de parte de un fellow student.
 
