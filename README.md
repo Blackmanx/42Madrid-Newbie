@@ -230,7 +230,7 @@ Os dejo por aquí las tres shells mas famosas en orden descendente de POSIX-comp
   <summary style="font-size:1.2em;">
   El Editor
   </summary>
-+++
+```
 Oh, el eterno dilema. 
 El editor que elijas usar va a ser la decisión más importante que debas tomar en esta: Tu cruzada.
 Esta elección te situará irremediablemente en un bando del que no podrás huir.
