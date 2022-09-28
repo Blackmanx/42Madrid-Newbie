@@ -49,9 +49,26 @@ Abarquemos primero el tema menos interesante: las herramientas que debes usar, a
   Git
   </summary>
 
-<pre style="height:15em;width:5empx;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-Al principio de los tiempos existían los protoplanetas, pedacitos de roca diseminados de manera caótica en lo largo y ancho de la galaxia. La gente trabajaba sobre ellos sin control alguno, cogiendo de aquí y allá lo que les convenía, formando pedazos de roca más grande a los que tenían la valentía de llamar planetas. Ahora, eso no era tarea sencilla, los errores eran comunes y catastróficos. Pero como no tenían traza alguna de que ni de donde venían los pedazos que formaban sus planetas, eran incapaces de volver sobre sus pasos para encontrar el origen de un planeta mal formado. Así no les quedaba otra que desechar meses de trabajo y volver a empezar. Tras un tiempo de trabajo con esta dinámica primitiva, y ya habiendo adquirido consciencia colectiva de que no era posible hacer nada mínimamente complejo, y que así pudiera albergar vida, algún ilustrado anónimo vio a bien guardar las etapas de la construcción de su planeta en pequeñas cajas de madera (archivos comprimidos). De la misma forma que uno se guarda las partidas de un juego para poder reintentar los niveles con distintas estrategias. De esta forma, en cuanto nuestro ser ilustrado veía que su planeta no iba por buen camino, volvía a rebuscar en la última caja que sabía que podía servirle como base de un buen planeta, y retomaba el trabajo desde ese punto. Así pues, las civilizaciones constructoras de planetas ya no tenían que empezar de cero cada vez que cometían un fallo. Sin embargo, con el tiempo, ya habiendo olvidado la caótica actividad de no tener puntos de guardado, y deseando invertir tiempo no en el trabajo en sí, sino en un sistema control de dicho trabajo, empezaron a idear formas mejores de aplicar la misma idea de base (tener pequeñas cajas que representaban una etapa concreta de su trabajo) pero de forma más automática, intentando que estuviera en la medida de lo posible en un segundo plano, y así pudieran concentrarse de pleno en la complejidad que es construir un planeta.
-</pre>
+```
+Al principio de los tiempos existían los protoplanetas, pedacitos de roca diseminados de manera caótica en lo largo y
+ancho de la galaxia. La gente trabajaba sobre ellos sin control alguno, cogiendo de aquí y allá lo que les convenía,
+formando pedazos de roca más grande a los que tenían la valentía de llamar planetas. Ahora, eso no era tarea sencilla,
+los errores eran comunes y catastróficos. Pero como no tenían traza alguna de que ni de donde venían los pedazos que
+formaban sus planetas, eran incapaces de volver sobre sus pasos para encontrar el origen de un planeta mal formado. 
+Así no les quedaba otra que desechar meses de trabajo y volver a empezar. Tras un tiempo de trabajo con esta dinámica 
+primitiva, y ya habiendo adquirido consciencia colectiva de que no era posible hacer nada mínimamente complejo, y que 
+así pudiera albergar vida, algún ilustrado anónimo vio a bien guardar las etapas de la construcción de su planeta en 
+pequeñas cajas de madera (archivos comprimidos). De la misma forma que uno se guarda las partidas de un juego para  
+poder reintentar los niveles con distintas estrategias. De esta forma, en cuanto nuestro ser ilustrado veía que su  
+planeta no iba por buen camino, volvía a rebuscar en la última caja que sabía que podía servirle como base de un buen
+planeta, y retomaba el trabajo desde ese punto. Así pues, las civilizaciones constructoras de planetas ya no tenían 
+que empezar de cero cada vez que cometían un fallo. Sin embargo, con el tiempo, ya habiendo olvidado la caótica actividad
+de no tener puntos de guardado, y deseando invertir tiempo no en el trabajo en sí, sino en un sistema control de dicho
+trabajo, empezaron a idear formas mejores de aplicar la misma idea de base (tener pequeñas cajas que representaban una
+etapa concreta de su trabajo) pero de forma más automática, intentando que estuviera en la medida de lo posible en un 
+segundo plano, y así pudieran concentrarse de pleno en la complejidad que es construir un planeta.
+```
+
 De esta forma nacieron los sistemas de control de versiones ([VCS](https://en.wikipedia.org/wiki/Version_control)) en su forma más primitiva. Entre ellos podemos contar con [SCCS](https://en.wikipedia.org/wiki/Source_Code_Control_System), [RCS](https://en.wikipedia.org/wiki/Revision_Control_System) y [SVN](https://subversion.apache.org/) (Aún hay empresas que usan Subversion!). Algunos de estos antiguos sistemas de control de versiones contaban con muchas características de las que podemos ver reflejos en los sistemas más modernos. Como por ejemplo la existencia de ramas de trabajo. Así múltiples personas pueden trabajar sobre la misma base sin chafarse los unos a los otros. O los tags/releases, para poner una bandera en las etapas estables del proyecto que representan una unidad funcional. Con todo, y para los estándares modernos esto no era suficiente. Estas herramientas, aunque suponiendo un gran paso respecto al salvaje oeste que en el que vivían los primeros desarrolladores, seguían estorbando considerablemente. No eran suficientemente inteligentes para suplir las problemáticas con las que el desarrollador moderno se encuentra en su día a día. Así pues, Linus Torvalds, en su encíclica cruzada, vino a solventar los mundanos problemas del ingeniero moderno, abriendo la veda a los sistemas de control de versiones modernos. Nació [Git](https://git-scm.com/). Con esta futurista herramienta, los nuevos programadores tenían a su disposición una navaja suiza para cortar, coser, solapar y quimerizar su código a gusto y sin limitaciones. Trayendo consigo nuevas herramientas como [cherry picking](https://git-scm.com/docs/git-cherry-pick), [bisect](https://git-scm.com/docs/git-bisect), [rebase](https://git-scm.com/docs/git-rebase) y muchas más.
 
 Contada esta pequeña historia sobre los sistemas de control de versiones, como es evidente, la elección de 42, y, por tanto, nuestra obligación, es aprender y usar Git. Esta es tu interfaz para publicar código en los servidores de 42. Así otros alumnos, principalmente tus correctores o compañeros de equipo pueden acceder a tu trabajo para revisarlo, modificarlo y demás. Por lo tanto, es altamente recomendado adquirir un conocimiento profundo sobre el mismo, porque, no nos engañemos, también será tu herramienta cuando plantes los pies en el terreno de la empresa.
@@ -213,9 +230,13 @@ Os dejo por aquí las tres shells mas famosas en orden descendente de POSIX-comp
   <summary style="font-size:1.2em;">
   El Editor
   </summary>
-<pre>
-Oh, el eterno dilema. El editor que elijas usar va a ser la decisión más importante que debas tomar en esta: Tu cruzada. Esta elección te situará irremediablemente en un bando del que no podrás huir. Correrán por su nombre caudalosos ríos de sangre y vísceras. Y morirás defendiendo el bastión hasta el último aliento.
-</pre>
++++
+Oh, el eterno dilema. 
+El editor que elijas usar va a ser la decisión más importante que debas tomar en esta: Tu cruzada.
+Esta elección te situará irremediablemente en un bando del que no podrás huir.
+Correrán por su nombre caudalosos ríos de sangre y vísceras. 
+Y morirás defendiendo el bastión hasta el último aliento.
+```
 
 Antes de los hombres no había nada, un eterno vacío. Luego, en los albores de la civilización se forjaron en ríos de lava [Emacs](https://www.gnu.org/software/emacs/) y [Vi](https://en.wikipedia.org/wiki/Vi). Entonces la [eterna guerra](https://en.wikipedia.org/wiki/Editor_war) por el control estalló, y perdura hasta estos días.
 
