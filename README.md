@@ -311,6 +311,13 @@ y a jugar (TIP: ps -ef y kill PID).
 
 Ve al Staff.
 
+- ** Dios mio la velocidad del key repeat es lentisima, ¿como puedo cambiarlo sin tener que estar cada dos por tres haciéndolo cada vez que me logueo?
+
+```
+defaults write -g InitialKeyRepeat -int 15
+defaults write -g KeyRepeat -int 2
+```
+
 ### Enlaces Interesantes
 > [https://github.com/Blackmanx/42madrid-toolbox](https://github.com/Blackmanx/42madrid-toolbox)
 
